@@ -4,9 +4,9 @@ export const socialbar = {
   description: "Find my Links Below",
   socials: {
     instagram: "https://instagram.com/stefanstax",
-    discord: "Stefan Stax#8176",
-    youtube: "https://www.youtube.com/channel/UCofJUpHrBhBDhIpx7jIfCxQ",
-    twitch: "https://www.twitch.tv/arihoresh",
+    discord: "https://discord.gg/KUDVsDWa7T",
+    // youtube: "https://www.youtube.com/channel/UCofJUpHrBhBDhIpx7jIfCxQ",
+    // twitch: "https://www.twitch.tv/arihoresh",
   },
 };
 

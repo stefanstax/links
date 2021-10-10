@@ -1,6 +1,6 @@
 import "./linksbar.css";
 
-import AllLinks, { filters } from "./filters";
+import AllLinks from "./filters";
 
 const LinksBar = ({
   showProjects,
@@ -12,7 +12,7 @@ const LinksBar = ({
     <div className="links--bar">
       <div className="container mx-auto py-5 max-w-6xl">
         {showTitleProjects ? (
-          <h2 class="text-2xl font-bold text-center text-white">
+          <h2 className="text-2xl font-bold pl-6 text-white">
             Projects I'm Enrolled In
           </h2>
         ) : null}
@@ -20,7 +20,7 @@ const LinksBar = ({
           {showProjects ? <AllLinks categoryList="Projects" /> : null}
         </div>
         {showTitleGroups ? (
-          <h2 className="text-2xl font-bold text-center text-white">
+          <h2 className="text-2xl font-bold pl-6 text-white">
             Groups that can benefit you
           </h2>
         ) : null}

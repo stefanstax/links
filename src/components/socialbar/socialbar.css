@@ -1,33 +1,36 @@
 div.social--bar {
-    background-color: #06714C;
+  background-color: #06714c;
 }
 
 div.social--bar div.container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
-    padding: 2rem 0px;
-    margin: 0 auto;
+  padding: 2rem 0px;
+  margin: 0 auto;
 }
 
 div.social--bar img {
-    width: 125px;
-    height: 125px;
-    border-radius: 100%;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
 }
 
 div.social--bar div.container div.socials--mini {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1rem auto;
-    width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  width: 100%;
 }
 
+div.social--bar div.container div.socials--mini a {
+  padding: 0px 10px;
+}
 div.social--bar div.container div.socials--mini svg {
-    font-size: 25px;
+  font-size: 25px;
 }
