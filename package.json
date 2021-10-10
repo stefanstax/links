@@ -1,7 +1,7 @@
 {
   "name": "getlinx",
-  "homepage": "https:links.stefanstax.com",
-  "version": "1.0.0",
+  "homepage": "https://links.stefanstax.com",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.3.0",
