@@ -1,0 +1,109 @@
+div.links--bar {
+  background-color: #2f8869;
+  min-height: 100vh;
+}
+
+a.link--block div.link--container {
+  border-radius: 40px;
+  margin: 1rem;
+  /* background-color: #44a784; */
+  box-shadow: 0px 0px 30px rgb(6 113 76 / 30%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.link--block div.link--container div.link--block-image img {
+  border-radius: 40px 0px 0px 25px;
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+}
+
+a.link--block div.link--container div.link--block-content,
+a.link--block div.link--container div.link--block-linking {
+  padding: 2rem;
+}
+
+a.link--block div.link--container div.link--block-image {
+  height: 136px;
+}
+
+a.link--block div.link--container div.link--block-content {
+  flex: 1;
+}
+
+a.link--block div.link--container div.link--block-content p {
+  max-width: 80% !important;
+  text-overflow: ellipsis;
+  overflow: hidden !important;
+  white-space: nowrap;
+  width: 750px;
+}
+
+a.link--block div.link--container div.link--block-linking {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  a.link--block div.link--block-content {
+    width: 50%;
+  }
+
+  a.link--block div.link--block-linking {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.scroller {
+    overflow-x: scroll;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  a.link--block div.link--container {
+    background-color: #06714c !important;
+    min-width: 270px;
+    height: 400px;
+  }
+
+  a.link--block div.link--container div.link--block-content p {
+    white-space: normal;
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  a.link--block div.link--container div.link--block-content,
+  a.link--block div.link--container div.link--block-linking,
+  a.link--block a {
+    padding: 0.5rem 2rem;
+  }
+
+  a.link--block div.link--container div.link--block-image img {
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  a.link--block div.link--container div.link--block-image {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+  }
+
+  a.link--block a {
+    background-color: #2f8869;
+    border-radius: 40px;
+    margin: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+div.social--bar {
+    background-color: #06714C;
+}
+
+div.social--bar div.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem 0px;
+    margin: 0 auto;
+}
+
+div.social--bar img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+}
+
+div.social--bar div.container div.socials--mini {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    width: 10%;
+}
+
+div.social--bar div.container div.socials--mini svg {
+    font-size: 25px;
+}
