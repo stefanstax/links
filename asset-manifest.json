@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/links.stefanstax.com/static/css/main.367032a1.chunk.css",
+    "main.js": "/links.stefanstax.com/static/js/main.94c9ef3c.chunk.js",
+    "main.js.map": "/links.stefanstax.com/static/js/main.94c9ef3c.chunk.js.map",
+    "runtime-main.js": "/links.stefanstax.com/static/js/runtime-main.c9d1259f.js",
+    "runtime-main.js.map": "/links.stefanstax.com/static/js/runtime-main.c9d1259f.js.map",
+    "static/js/2.e3a000b6.chunk.js": "/links.stefanstax.com/static/js/2.e3a000b6.chunk.js",
+    "static/js/2.e3a000b6.chunk.js.map": "/links.stefanstax.com/static/js/2.e3a000b6.chunk.js.map",
+    "static/js/3.16989336.chunk.js": "/links.stefanstax.com/static/js/3.16989336.chunk.js",
+    "static/js/3.16989336.chunk.js.map": "/links.stefanstax.com/static/js/3.16989336.chunk.js.map",
+    "index.html": "/links.stefanstax.com/index.html",
+    "static/css/main.367032a1.chunk.css.map": "/links.stefanstax.com/static/css/main.367032a1.chunk.css.map",
+    "static/js/2.e3a000b6.chunk.js.LICENSE.txt": "/links.stefanstax.com/static/js/2.e3a000b6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9d1259f.js",
+    "static/js/2.e3a000b6.chunk.js",
+    "static/css/main.367032a1.chunk.css",
+    "static/js/main.94c9ef3c.chunk.js"
+  ]
+}
