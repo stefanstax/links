@@ -45,7 +45,7 @@ export const linksbar = [
     buttonText: "Discover",
     newLink: false,
     hot: false,
-    development: false,
+    development: true,
   },
   {
     name: "Thriving Stockwell",
