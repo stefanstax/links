@@ -5,8 +5,10 @@ import AllLinks from "./filters";
 const LinksBar = ({
   showProjects,
   showGroups,
+  showPartners,
   showTitleProjects,
   showTitleGroups,
+  showTitlePartners,
 }) => {
   return (
     <div className="links--bar">
@@ -27,7 +29,27 @@ const LinksBar = ({
         <div className="scroller">
           {showGroups ? <AllLinks categoryList="Groups" /> : null}
         </div>
+        {showTitlePartners ? (
+          <h2 className="text-2xl font-bold pl-6 text-white">
+            Partners of Confidence
+          </h2>
+        ) : null}
+        <div className="scroller">
+          {showPartners ? <AllLinks categoryList="Partners" /> : null}
+        </div>
       </div>
+      <h5 className="text-center font-bold text-md py-5 text-white">
+        From{" "}
+        <a
+          href="mailto:stax@stefanstax.com"
+          target="_blank"
+          rel="noreferrer"
+          className="animate-pulse"
+        >
+          Stefan Stax
+        </a>{" "}
+        for you
+      </h5>
     </div>
   );
 };

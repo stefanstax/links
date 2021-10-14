@@ -12,6 +12,7 @@ div.link--block div.link--container {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 div.link--block div.link--container div.link--block-image img {
@@ -83,6 +84,7 @@ div.link--block div.link--container div.link--block-linking {
   div.link--block div.link--container div.link--block-linking,
   div.link--block a {
     padding: 0.5rem 2rem;
+    z-index: 10;
   }
 
   div.link--block div.link--container div.link--block-image img {
@@ -105,5 +107,45 @@ div.link--block div.link--container div.link--block-linking {
     margin: 1rem;
     text-align: center;
     width: 100%;
+  }
+}
+
+div.link--block div.link--container.hot {
+  background-color: burlywood !important;
+}
+
+.invert {
+  color: #171717;
+}
+
+.popular {
+  position: absolute;
+  top: 43%;
+  left: 95%;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: brown;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .popular {
+    position: absolute;
+    top: 85%;
+    left: 18%;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: brown;
+    z-index: 100;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 968px) {
+  .popular {
+    top: 43%;
+    left: 92.5%;
+    z-index: 100;
   }
 }

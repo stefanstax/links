@@ -1,20 +1,21 @@
 export const socialbar = {
   name: "Stefan Stax",
-  imageUrl: "https://app.znaplink.com/uploads/avatars/1631995600.png",
+  imageUrl:
+    "https://res.cloudinary.com/dnqicdh71/image/upload/v1634218049/stefanstax.webp",
   description: "Find my Links Below",
   socials: {
-    instagram: "https://instagram.com/stefanstax",
+    instagram: "https://instagram.com/devstax",
     discord: "https://discord.gg/KUDVsDWa7T",
-    // youtube: "https://www.youtube.com/channel/UCofJUpHrBhBDhIpx7jIfCxQ",
-    // twitch: "https://www.twitch.tv/arihoresh",
   },
 };
 
 export const linksbarstatus = {
-  showProjects: true,
   showTitleProjects: true,
   showTitleGroups: true,
+  showTitlePartners: true,
+  showProjects: true,
   showGroups: true,
+  showPartners: true,
   showReferrals: false,
   showSetup: false,
 };
@@ -29,7 +30,9 @@ export const linksbar = [
     linkTo: "https://entermedschool.com",
     category: "Projects",
     buttonText: "Discover",
-    newLink: false,
+    newLink: true,
+    hot: true,
+    development: false,
   },
   {
     name: "L Professeur",
@@ -41,6 +44,8 @@ export const linksbar = [
     category: "Projects",
     buttonText: "Discover",
     newLink: false,
+    hot: false,
+    development: false,
   },
   {
     name: "Thriving Stockwell",
@@ -51,7 +56,9 @@ export const linksbar = [
     linkTo: "https://featuresdev.wpengine.com",
     category: "Projects",
     buttonText: "Discover",
-    newLink: false,
+    newLink: true,
+    hot: false,
+    development: true,
   },
   {
     name: "Zepter International | Live Better",
@@ -63,6 +70,8 @@ export const linksbar = [
     category: "Projects",
     buttonText: "Discover",
     newLink: false,
+    hot: false,
+    development: false,
   },
   {
     name: "Ari Horesh Branding",
@@ -74,6 +83,8 @@ export const linksbar = [
     category: "Projects",
     buttonText: "Discover",
     newLink: false,
+    hot: false,
+    development: false,
   },
   {
     name: "Study Lions | Focus & Community",
@@ -85,6 +96,8 @@ export const linksbar = [
     category: "Groups",
     buttonText: "Discover",
     newLink: false,
+    hot: false,
+    development: false,
   },
   {
     name: "EnterMedSchool | Medical Community All-In-One",
@@ -96,5 +109,33 @@ export const linksbar = [
     category: "Groups",
     buttonText: "Discover",
     newLink: false,
+    hot: false,
+    development: false,
+  },
+  {
+    name: "Kate Estrabo | Graphic Design - All-In-One",
+    imageUrl:
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1634216165/Untitled_9.png",
+    description:
+      "Truly unique person that possibly cares more about your brand than you do.",
+    linkTo: "https://kateestrabo.com",
+    category: "Partners",
+    buttonText: "Collaboration",
+    newLink: false,
+    hot: false,
+    development: false,
+  },
+  {
+    name: "EnterMedSchool | Volunteer Program Signup",
+    imageUrl:
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1634216834/Untitled_10.png",
+    description:
+      "Join one of the fast growing platforms by making expensive materials free for medical students worldwide.",
+    linkTo: "https://entermedschool.com/tutoring",
+    category: "Partners",
+    buttonText: "Volunteering",
+    newLink: false,
+    hot: false,
+    development: true,
   },
 ];

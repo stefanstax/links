@@ -8,7 +8,7 @@ const App = () => {
     <div className="main--container">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Stefan Stax Links</title>
+        <title>Stefan Stax | Links</title>
         <meta
           name="description"
           content="
