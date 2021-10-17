@@ -47,6 +47,7 @@ div.link--block div.link--container div.link--block-linking {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  z-index: 10;
 }
 
 @media only screen and (min-width: 768px) {
@@ -84,10 +85,6 @@ div.link--block div.link--container div.link--block-linking {
   div.link--block div.link--container div.link--block-linking,
   div.link--block a {
     padding: 0.5rem 2rem;
-    z-index: 10;
-  }
-
-  div.link--block-linking a {
     z-index: 10;
   }
 
@@ -142,7 +139,7 @@ div.link--block div.link--container.hot {
     height: 20px;
     border-radius: 100%;
     background-color: brown;
-    z-index: 2;
+    z-index: 0;
   }
 }
 
@@ -150,6 +147,6 @@ div.link--block div.link--container.hot {
   .popular {
     top: 43%;
     left: 92.5%;
-    z-index: 2;
+    z-index: 0;
   }
 }
