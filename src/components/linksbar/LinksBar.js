@@ -49,16 +49,14 @@ const LinksBar = ({
         </div>
       </div>
       <h5 className="text-center font-bold text-md py-5 text-white">
-        From{" "}
         <a
-          href="mailto:stax@stefanstax.com"
+          href="mailto:stefanstaxbusiness@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="animate-pulse"
         >
-          Stefan Stax
+          Want a website like this? Personalized for free
         </a>{" "}
-        for you
       </h5>
     </div>
   );
