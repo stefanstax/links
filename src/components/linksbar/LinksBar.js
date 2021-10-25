@@ -3,9 +3,11 @@ import "./linksbar.css";
 import AllLinks from "./filters";
 
 const LinksBar = ({
+  showTemp,
   showProjects,
   showGroups,
   showPartners,
+  showTitleTemp,
   showTitleProjects,
   showTitleGroups,
   showTitlePartners,
@@ -13,6 +15,14 @@ const LinksBar = ({
   return (
     <div className="links--bar">
       <div className="container mx-auto py-5 max-w-6xl">
+        {showTitleTemp ? (
+          <h2 className="text-2xl font-bold pl-6 text-white">
+            Available for 24h
+          </h2>
+        ) : null}
+        <div className="scroller">
+          {showTemp ? <AllLinks categoryList="Temp" /> : null}
+        </div>
         {showTitleProjects ? (
           <h2 className="text-2xl font-bold pl-6 text-white">
             Projects I'm Enrolled In
