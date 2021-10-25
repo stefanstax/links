@@ -39,11 +39,9 @@ div.link--block div.link--container a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  z-index: 10;
-  width: 50%;
   padding: 10px;
   margin: 1rem;
-  background-color: #06714c;
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
   border-radius: 5px;
 }
 
@@ -75,7 +73,6 @@ div.link--block div.link--container a {
   div.link--block div.link--container {
     background-color: #06714c !important;
     min-width: 270px;
-    height: 400px;
   }
 
   div.link--block div.link--container div.link--block-content p {
@@ -87,28 +84,17 @@ div.link--block div.link--container a {
   div.link--block div.link--container div.link--block-content,
   div.link--block a {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
   }
 
   div.link--block div.link--container div.link--block-image img {
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
   }
 
   div.link--block div.link--container div.link--block-image {
-    height: 150px;
-    width: 100%;
-    padding: 10px;
     border-radius: 40px;
-  }
-
-  div.link--block a {
-    background-color: #2f8869;
-    border-radius: 15px;
-    margin: 1rem;
-    text-align: center;
-    width: 100%;
   }
 }
 
