@@ -1,5 +1,5 @@
 div.links--bar {
-  background-color: #2f8869;
+  background-color: #e8eef4;
   min-height: 100vh;
 }
 
@@ -15,11 +15,16 @@ div.links--bar div.container div.scroller div.link--block {
 div.link--block div.link--container {
   border-radius: 25px 25px 15px 15px;
   margin: 1rem;
-  box-shadow: 0px 0px 30px rgb(6 113 76 / 30%);
+  box-shadow: 0px 0px 10px #d9d9d9;
+  background: #fff;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   position: relative;
+}
+
+div.links--bar div.container div.scroller div.link--block p,
+div.links--bar div.container div.scroller div.link--block h1 {
+  color: #000;
 }
 
 div.link--block div.link--container div.link--block-image img {
@@ -41,8 +46,10 @@ div.link--block div.link--container a {
   align-items: center;
   padding: 10px;
   margin: 1rem;
-  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
-  border-radius: 5px;
+  background-color: #000;
+  border-radius: 15px;
+  border: none;
+  width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -71,7 +78,6 @@ div.link--block div.link--container a {
   }
 
   div.link--block div.link--container {
-    background-color: #06714c !important;
     min-width: 270px;
   }
 
@@ -79,6 +85,10 @@ div.link--block div.link--container a {
     white-space: normal;
     width: 100%;
     max-width: 100% !important;
+  }
+
+  div.link--block div.link--container a  {
+    width: 100%;
   }
 
   div.link--block div.link--container div.link--block-content,
@@ -99,9 +109,9 @@ div.link--block div.link--container a {
 }
 
 div.link--block div.link--container.hot {
-  background-color: burlywood !important;
+  background-color: #efbe13 !important;
 }
 
 .invert {
-  color: #171717;
+  color: #201e20;
 }

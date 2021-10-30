@@ -16,7 +16,7 @@ const LinksBar = ({
     <div className="links--bar">
       <div className="container mx-auto py-5 max-w-6xl">
         {showTitleTemp ? (
-          <h2 className="text-2xl font-bold pl-6 text-white">
+          <h2 className="text-2xl font-bold pl-6 text-black mt-6">
             Available for 24h
           </h2>
         ) : null}
@@ -24,7 +24,7 @@ const LinksBar = ({
           {showTemp ? <AllLinks categoryList="Temp" /> : null}
         </div>
         {showTitleProjects ? (
-          <h2 className="text-2xl font-bold pl-6 text-white">
+          <h2 className="text-2xl font-bold pl-6 text-black mt-6">
             Projects I'm Enrolled In
           </h2>
         ) : null}
@@ -32,7 +32,7 @@ const LinksBar = ({
           {showProjects ? <AllLinks categoryList="Projects" /> : null}
         </div>
         {showTitleGroups ? (
-          <h2 className="text-2xl font-bold pl-6 text-white">
+          <h2 className="text-2xl font-bold pl-6 text-black mt-6">
             Groups that can benefit you
           </h2>
         ) : null}
@@ -40,7 +40,7 @@ const LinksBar = ({
           {showGroups ? <AllLinks categoryList="Groups" /> : null}
         </div>
         {showTitlePartners ? (
-          <h2 className="text-2xl font-bold pl-6 text-white">
+          <h2 className="text-2xl font-bold pl-6 text-black mt-6">
             Partners of Confidence
           </h2>
         ) : null}
@@ -48,7 +48,7 @@ const LinksBar = ({
           {showPartners ? <AllLinks categoryList="Partners" /> : null}
         </div>
       </div>
-      <h5 className="text-center font-bold text-md py-5 text-white">
+      <h5 className="text-center font-bold text-md py-5 text-black">
         <a
           href="mailto:stefanstaxbusiness@gmail.com"
           target="_blank"

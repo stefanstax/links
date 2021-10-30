@@ -2,6 +2,10 @@ import LinksBar from "./components/linksbar/LinksBar";
 import SocialBar from "./components/socialbar/SocialBar";
 import { socialbar, linksbarstatus } from "./db";
 import { Helmet } from "react-helmet";
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "UA-211606208-1";
+ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
   return (
