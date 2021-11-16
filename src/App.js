@@ -1,18 +1,14 @@
-import LinksBar from "./components/linksbar/LinksBar";
-import SocialBar from "./components/socialbar/SocialBar";
-import { socialbar, linksbarstatus } from "./db";
 import { Helmet } from "react-helmet";
-import ReactGA from 'react-ga';
-
-const TRACKING_ID = "UA-211606208-1";
-ReactGA.initialize(TRACKING_ID);
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import FrontPage from "./components/pages/FrontPage/FrontPage";
+import ProjectPage from "./components/pages/ProjectPage/ProjectPage";
 
 const App = () => {
   return (
     <div className="main--container">
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Stefan Stax | Links</title>
+        <meta charSet="utf-8" />
         <meta
           name="description"
           content="
@@ -21,8 +17,13 @@ const App = () => {
           success. If you wish to collaborate with me please use the presented contact links."
         />
       </Helmet>
-      <SocialBar {...socialbar} />
-      <LinksBar {...linksbarstatus} />
+      <Router>
+        <Switch>
+          <Route path="/" exact component={FrontPage} />
+          {/* V2 */}
+          {/* <Route path="/:projectName" component={ProjectPage} /> */}
+        </Switch>
+      </Router>
     </div>
   );
 };

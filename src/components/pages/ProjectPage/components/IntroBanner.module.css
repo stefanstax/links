@@ -1,0 +1,63 @@
+div.introBanner__container {
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  width: 100%;
+  height: 600px;
+}
+
+div.introBanner__container h1,
+div.introBanner__container h2 {
+  color: #2f302e;
+}
+
+div.introBanner__container__layout {
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+}
+
+div.introBanner__container__layout div {
+  flex: 0.5;
+  max-width: 600px;
+}
+
+div.introBanner__contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.introBanner__contact a {
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 15px;
+  transition: all 0.5s ease-in-out;
+}
+
+div.introBanner__contact a:first-child {
+  background-color: #2f302e;
+  color: #d3ba7e;
+}
+
+div.introBanner__container a svg {
+  margin-right: 0.5rem;
+}
+
+/* * Interactions */
+div.introBanner__contact a:hover {
+  background-color: floralwhite;
+}

@@ -1,0 +1,22 @@
+div.benefits__iconset {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+p.benefits__contentholder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 10px 10px 10px 0px;
+  margin: 5px 5px 5px 0px;
+  border-radius: 10px;
+  width: fit-content;
+  font-weight: 300;
+}
+
+p.benefits__contentholder svg {
+  margin-right: 5px;
+}
