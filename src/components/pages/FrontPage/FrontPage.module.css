@@ -1,0 +1,19 @@
+img.frontPage__icon {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+div.frontPage__iconHolder {
+  position: fixed;
+  top: 40%;
+  width: 50px;
+  left: 30px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px;
+}
+
+img.frontPage__icon:hover {
+  transform: rotate(360deg);
+}

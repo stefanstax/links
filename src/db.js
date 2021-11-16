@@ -1,11 +1,12 @@
 export const socialbar = {
   name: "Stefan Stax",
   imageUrl:
-    "https://res.cloudinary.com/dnqicdh71/image/upload/v1634218049/stefanstax.webp",
+    "https://res.cloudinary.com/dnqicdh71/image/upload/v1636719052/Stefan%20Stax%20%7C%20Websites/Links%20Website/logo-03.png",
   description: "Find my Links Below",
   socials: {
     instagram: "https://instagram.com/devstax",
-    discord: "https://discord.gg/KUDVsDWa7T",
+    // twitch: "https://www.twitch.tv/stefanstax",
+    // discord: "https://discord.gg/TjXmCZ6r97",
   },
 };
 
@@ -25,6 +26,7 @@ export const linksbarstatus = {
 export const linksbar = [
   {
     name: "EnterMedSchool",
+    cleanUrl: "entermedschool",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858215/Untitled_4.png",
     description:
@@ -35,13 +37,25 @@ export const linksbar = [
     weight: 1,
     hot: true,
     development: false,
+
+    benefitTextOne: "Customized BuddyBoss Theme",
+    benefitTextTwo: "Custom Authentication Process",
+    benefitTextThree: "Community Driven Project",
+    benefitTextFour: "LearnDash Courses",
+
+    backgroundUrl: "#ced9d1",
+    title: "EnterMedSchool",
+    content: "Medical Materials for free",
+    linkWebsite: "https://entermedschool.com",
+    contactPerson: "stefanstaxbusiness@gmail.com",
   },
   {
-    name: "L Professeur",
+    name: "Moving Beyond COP",
+    cleanUrl: "movingbeyond",
     imageUrl:
-      "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858215/Untitled_3.png",
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1637086659/Stefan%20Stax%20%7C%20Websites/Links%20Website/movingbeyondcop_thumbnail.png",
     description:
-      "Project still under development. Feel free to report bugs by viewing the website.",
+      "Project still under development.",
     linkTo: "https://lprofesseur.com",
     category: "Projects",
     buttonText: "Discover",
@@ -49,12 +63,27 @@ export const linksbar = [
     hot: false,
     development: true,
   },
+  // {
+  //   name: "L Professeur",
+  //   cleanUrl: "lprofesseur",
+  //   imageUrl:
+  //     "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858215/Untitled_3.png",
+  //   description:
+  //     "Project still under development. Feel free to report bugs by viewing the website.",
+  //   linkTo: "https://lprofesseur.com",
+  //   category: "Projects",
+  //   buttonText: "Discover",
+  //   weight: 4,
+  //   hot: false,
+  //   development: true,
+  // },
   {
     name: "Thriving Stockwell",
+    cleanUrl: "thrivingstockwell",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858215/Untitled_2.png",
     description:
-      "Project still under development. Feel free to report bugs by viewing the website.",
+      "Project still under development.",
     linkTo: "https://featuresdev.wpengine.com",
     category: "Projects",
     buttonText: "Discover",
@@ -63,7 +92,8 @@ export const linksbar = [
     development: true,
   },
   {
-    name: "Zepter International | Live Better",
+    name: "Zepter International",
+    cleanUrl: "zepter",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858716/Untitled_6.png",
     description:
@@ -74,9 +104,16 @@ export const linksbar = [
     weight: 2,
     hot: false,
     development: false,
+    backgroundUrl:
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1632660428/sample.jpg",
+    title: "Ari",
+    content: "Medical Materials for free",
+    linkWebsite: "https://entermedschool.com",
+    contactPerson: "stefanstaxbusiness@gmail.com",
   },
   {
     name: "Ari Horesh Branding",
+    cleanUrl: "arihoresh",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858215/Untitled_1.png",
     description:
@@ -90,11 +127,12 @@ export const linksbar = [
   },
   {
     name: "Study Lions | Focus & Community",
+    cleanUrl: "studylions",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1633857110/Untitled.png",
     description:
       "From High school students to Postdoctoral researchers, The Study Lions is where everyone comes to study together. | over 26,000 members",
-    linkTo: "https://discord.gg/KUDVsDWa7T",
+    linkTo: "https://discord.gg/TjXmCZ6r97",
     category: "Groups",
     buttonText: "Discover",
     weight: 1,
@@ -103,6 +141,7 @@ export const linksbar = [
   },
   {
     name: "EMS | Medical Community All-In-One",
+    cleanUrl: "entermedschool-discord",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858779/Untitled_7.png",
     description:
@@ -113,9 +152,16 @@ export const linksbar = [
     weight: 2,
     hot: false,
     development: false,
+    backgroundUrl:
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1632660428/sample.jpg",
+    title: "EnterMedSchool",
+    content: "Medical Materials for free",
+    linkWebsite: "https://entermedschool.com",
+    contactPerson: "stefanstaxbusiness@gmail.com",
   },
   {
     name: "Kate Estrabo | Graphic Design - All-In-One",
+    cleanUrl: "kateestrabo",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1634216165/Untitled_9.png",
     description:
@@ -125,10 +171,11 @@ export const linksbar = [
     buttonText: "Collaboration",
     weight: 1,
     hot: false,
-    development: false,
+    development: true,
   },
   {
     name: "EMS | Volunteer Program Signup",
+    cleanUrl: "entermedschool-volunteer program",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1634216834/Untitled_10.png",
     description:

@@ -1,6 +1,6 @@
 import { linksbar } from "../../db";
-import { RiLinksFill } from "react-icons/ri";
 import TextTruncate from "react-text-truncate";
+import { Link } from "react-router-dom";
 
 const AllLinks = (props) =>
   linksbar
@@ -8,7 +8,7 @@ const AllLinks = (props) =>
     .map((link) => {
       return (
         <div
-          key={link.linkTo}
+          key={link.cleanUrl}
           className="link--block projects text-white m-2 md:m-0"
           style={{ opacity: link.development ? "0.7" : "1.0" }}
         >
@@ -22,7 +22,7 @@ const AllLinks = (props) =>
             </div>
             <div className="link--block-content">
               <TextTruncate
-                line={2}
+                line={1}
                 element="h1"
                 truncateText="…"
                 text={link.name}
@@ -32,7 +32,7 @@ const AllLinks = (props) =>
                 // textTruncateChild={<a href="#">Read on</a>}
               />
               <TextTruncate
-                line={2}
+                line={3}
                 element="p"
                 truncateText="…"
                 className={`text-sm font-medium ${
@@ -41,14 +41,18 @@ const AllLinks = (props) =>
                 text={link.description}
               />
             </div>
-            <a
-              className="font-bold"
-              href={!link.development ? link.linkTo : null}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {!link.development ? link.buttonText : "Under Development"}
-            </a>
+            <div className="link__links">
+              <a
+                className="font-bold"
+                href={!link.development ? link.linkTo : null}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {!link.development ? link.buttonText : "Under Development"}
+              </a>
+              {/* V2 */}
+              {/* <Link to={`/${link.cleanUrl}`}>Project Details</Link> */}
+            </div>
           </div>
         </div>
       );
