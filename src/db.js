@@ -5,21 +5,14 @@ export const socialbar = {
   description: "Find my Links Below",
   socials: {
     instagram: "https://instagram.com/devstax",
-    // twitch: "https://www.twitch.tv/stefanstax",
-    // discord: "https://discord.gg/TjXmCZ6r97",
   },
 };
 
 export const linksbarstatus = {
-  showTitleProjects: true,
-  showTitleGroups: true,
-  showTitlePartners: true,
-  showTitleTemp: false,
-  showTemp: false,
   showProjects: true,
   showGroups: true,
-  showPartners: true,
-  showReferrals: false,
+  showAffiliates: true,
+  showPartners: false,
   showSetup: false,
 };
 
@@ -35,7 +28,7 @@ export const linksbar = [
     category: "Projects",
     buttonText: "Discover",
     weight: 1,
-    hot: true,
+    hot: false,
     development: false,
 
     benefitTextOne: "Customized BuddyBoss Theme",
@@ -54,8 +47,7 @@ export const linksbar = [
     cleanUrl: "movingbeyond",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1637086659/Stefan%20Stax%20%7C%20Websites/Links%20Website/movingbeyondcop_thumbnail.png",
-    description:
-      "Project still under development.",
+    description: "Project still under development.",
     linkTo: "https://lprofesseur.com",
     category: "Projects",
     buttonText: "Discover",
@@ -63,27 +55,12 @@ export const linksbar = [
     hot: false,
     development: true,
   },
-  // {
-  //   name: "L Professeur",
-  //   cleanUrl: "lprofesseur",
-  //   imageUrl:
-  //     "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858215/Untitled_3.png",
-  //   description:
-  //     "Project still under development. Feel free to report bugs by viewing the website.",
-  //   linkTo: "https://lprofesseur.com",
-  //   category: "Projects",
-  //   buttonText: "Discover",
-  //   weight: 4,
-  //   hot: false,
-  //   development: true,
-  // },
   {
     name: "Thriving Stockwell",
     cleanUrl: "thrivingstockwell",
     imageUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1633858215/Untitled_2.png",
-    description:
-      "Project still under development.",
+    description: "Project still under development.",
     linkTo: "https://featuresdev.wpengine.com",
     category: "Projects",
     buttonText: "Discover",
@@ -101,8 +78,8 @@ export const linksbar = [
     linkTo: "https://zepter.com",
     category: "Projects",
     buttonText: "Discover",
-    weight: 2,
-    hot: false,
+    weight: 0,
+    hot: true,
     development: false,
     backgroundUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1632660428/sample.jpg",
@@ -151,7 +128,7 @@ export const linksbar = [
     buttonText: "Discover",
     weight: 2,
     hot: false,
-    development: false,
+    development: true,
     backgroundUrl:
       "https://res.cloudinary.com/dnqicdh71/image/upload/v1632660428/sample.jpg",
     title: "EnterMedSchool",
@@ -159,32 +136,60 @@ export const linksbar = [
     linkWebsite: "https://entermedschool.com",
     contactPerson: "stefanstaxbusiness@gmail.com",
   },
+  // {
+  //   name: "Kate Estrabo | Graphic Design - All-In-One",
+  //   cleanUrl: "kateestrabo",
+  //   imageUrl:
+  //     "https://res.cloudinary.com/dnqicdh71/image/upload/v1634216165/Untitled_9.png",
+  //   description:
+  //     "Truly unique person that possibly cares more about your brand than you do.",
+  //   linkTo: "https://kateestrabo.com",
+  //   category: "Partners",
+  //   buttonText: "Collaboration",
+  //   weight: 1,
+  //   hot: false,
+  //   development: true,
+  // },
+  // {
+  //   name: "EMS | Volunteer Program Signup",
+  //   cleanUrl: "entermedschool-volunteer program",
+  //   imageUrl:
+  //     "https://res.cloudinary.com/dnqicdh71/image/upload/v1634216834/Untitled_10.png",
+  //   description:
+  //     "Join one of the fast growing platforms by making expensive materials free for medical students worldwide.",
+  //   linkTo: "https://entermedschool.com/tutoring",
+  //   category: "Partners",
+  //   buttonText: "Volunteering",
+  //   weight: 2,
+  //   hot: false,
+  //   development: true,
+  // },
   {
-    name: "Kate Estrabo | Graphic Design - All-In-One",
-    cleanUrl: "kateestrabo",
+    name: "SkillShare | 30 days for free!",
+    cleanUrl: "skillshare",
     imageUrl:
-      "https://res.cloudinary.com/dnqicdh71/image/upload/v1634216165/Untitled_9.png",
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1638632638/Stefan%20Stax%20%7C%20Websites/Links%20Website/skillshare.png",
     description:
-      "Truly unique person that possibly cares more about your brand than you do.",
-    linkTo: "https://kateestrabo.com",
-    category: "Partners",
-    buttonText: "Collaboration",
-    weight: 1,
+      "Skillshare is an online learning platform with thousands of creative courses and classes taught by experts to help you learn new skills.",
+    linkTo: "https://skl.sh/3kKpSkB",
+    category: "Affiliates",
+    buttonText: "Claim for Free",
+    weight: 0,
     hot: false,
-    development: true,
+    development: false,
   },
   {
-    name: "EMS | Volunteer Program Signup",
-    cleanUrl: "entermedschool-volunteer program",
+    name: "Babbel | 30 days for free!",
+    cleanUrl: "babbel",
     imageUrl:
-      "https://res.cloudinary.com/dnqicdh71/image/upload/v1634216834/Untitled_10.png",
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1638632902/Stefan%20Stax%20%7C%20Websites/Links%20Website/babbel.png",
     description:
-      "Join one of the fast growing platforms by making expensive materials free for medical students worldwide.",
-    linkTo: "https://entermedschool.com/tutoring",
-    category: "Partners",
-    buttonText: "Volunteering",
-    weight: 2,
+      "Babbel is the new way to learn a foreign language. The comprehensive learning system combines effective education methods with state-of-the-art technology.",
+    linkTo: "https://www.talkable.com/x/hcatCb",
+    category: "Affiliates",
+    buttonText: "Claim for Free",
+    weight: 1,
     hot: false,
-    development: true,
+    development: false,
   },
 ];

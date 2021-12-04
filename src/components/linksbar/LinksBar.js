@@ -3,53 +3,55 @@ import "./linksbar.css";
 import AllLinks from "./filters";
 
 const LinksBar = ({
-  showTemp,
   showProjects,
   showGroups,
   showPartners,
-  showTitleTemp,
-  showTitleProjects,
-  showTitleGroups,
-  showTitlePartners,
+  showAffiliates,
 }) => {
   return (
     <div className="links--bar">
       <div className="container mx-auto py-5 max-w-6xl">
-        {showTitleProjects ? (
-          <h2 className={`font-bold pl-6 text-black mt-6`}>
-            Projects I'm Enrolled In
-          </h2>
+        {showAffiliates ? (
+          <div className="scroller" id="affiliates">
+            <h2 className={`font-bold pl-6 text-black mt-6`}>
+              Free deals for you
+            </h2>
+            <div className="projects__feed">
+              <AllLinks categoryList="Affiliates" />
+            </div>
+          </div>
         ) : null}
-        <div className="scroller">
-          {showProjects ? <AllLinks categoryList="Projects" /> : null}
-        </div>
-        {showTitleGroups ? (
-          <h2 className={`font-bold pl-6 text-black mt-6`}>
-            Groups that can benefit you
-          </h2>
+        {showProjects ? (
+          <div className="scroller">
+            <h2 className={`font-bold pl-6 text-black mt-6`}>
+              Projects I'm Enrolled In
+            </h2>
+            <div className="projects__feed">
+              <AllLinks categoryList="Projects" />
+            </div>
+          </div>
         ) : null}
-        <div className="scroller">
-          {showGroups ? <AllLinks categoryList="Groups" /> : null}
-        </div>
-        {showTitlePartners ? (
-          <h2 className={`font-bold pl-6 text-black mt-6`}>
-            Partners of Confidence
-          </h2>
+        {showGroups ? (
+          <div className="scroller" id="groups">
+            <h2 className={`font-bold pl-6 text-black mt-6`}>
+              Groups that can benefit you
+            </h2>
+            <div className="projects__feed">
+              <AllLinks categoryList="Groups" />
+            </div>
+          </div>
         ) : null}
-        <div className="scroller">
-          {showPartners ? <AllLinks categoryList="Partners" /> : null}
-        </div>
+        {showPartners ? (
+          <div className="scroller" id="partners">
+            <h2 className={`font-bold pl-6 text-black mt-6`}>
+              Partners of Confidence
+            </h2>
+            <div className="projects__feed">
+              <AllLinks categoryList="Partners" />
+            </div>
+          </div>
+        ) : null}
       </div>
-      <h5 className="text-center font-bold text-md py-5 text-black">
-        <a
-          href="mailto:stefanstaxbusiness@gmail.com"
-          target="_blank"
-          rel="noreferrer"
-          className="animate-pulse"
-        >
-          Want a website like this? Personalized for free
-        </a>{" "}
-      </h5>
     </div>
   );
 };
