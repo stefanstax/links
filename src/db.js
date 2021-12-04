@@ -174,7 +174,7 @@ export const linksbar = [
     linkTo: "https://skl.sh/3kKpSkB",
     category: "Affiliates",
     buttonText: "Claim for Free",
-    weight: 0,
+    weight: 2,
     hot: false,
     development: false,
   },
@@ -189,6 +189,34 @@ export const linksbar = [
     category: "Affiliates",
     buttonText: "Claim for Free",
     weight: 1,
+    hot: false,
+    development: false,
+  },
+  {
+    name: "Balance | 365 days for free!",
+    cleanUrl: "balance",
+    imageUrl:
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1638639517/Stefan%20Stax%20%7C%20Websites/Links%20Website/balance.png",
+    description:
+      "Meditation that adapts to you. ... The world's first personalized meditation app. ... 01. Each day, you answer questions about your meditation experience, goals",
+    linkTo: "https://www.balanceapp.com/referral-social",
+    category: "Affiliates",
+    buttonText: "Claim for Free",
+    weight: 0,
+    hot: false,
+    development: false,
+  },
+  {
+    name: "Headspace | 60% off",
+    cleanUrl: "headspace",
+    imageUrl:
+      "https://res.cloudinary.com/dnqicdh71/image/upload/v1638639891/Stefan%20Stax%20%7C%20Websites/Links%20Website/headspace.png",
+    description:
+      "Hundreds of meditations, sleep exercises, bedtime sounds, wind downs, and more. A healthier, happier you starts right here.",
+    linkTo: "https://www.headspace.com/invite/0zDfT",
+    category: "Affiliates",
+    buttonText: "Claim 60% Off",
+    weight: 0,
     hot: false,
     development: false,
   },

@@ -14,7 +14,7 @@ const LinksBar = ({
         {showAffiliates ? (
           <div className="scroller" id="affiliates">
             <h2 className={`font-bold pl-6 text-black mt-6`}>
-              Free deals for you
+              December deals for you
             </h2>
             <div className="projects__feed">
               <AllLinks categoryList="Affiliates" />
@@ -33,9 +33,7 @@ const LinksBar = ({
         ) : null}
         {showGroups ? (
           <div className="scroller" id="groups">
-            <h2 className={`font-bold pl-6 text-black mt-6`}>
-              Groups that can benefit you
-            </h2>
+            <h2 className={`font-bold pl-6 text-black mt-6`}>Social Groups</h2>
             <div className="projects__feed">
               <AllLinks categoryList="Groups" />
             </div>
