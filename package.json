@@ -1,6 +1,5 @@
 {
-  "name": "getlinx",
-  "homepage": "https://links.stefanstax.com",
+  "name": "links",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
